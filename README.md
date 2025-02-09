@@ -188,37 +188,37 @@ Below are embedded screenshots demonstrating how the application works in CICS. 
 ```
 ## **Inquiry Program Screens**
 - **PART 1: CEDA DISPLAY**  
-  ```markdown
-  ![CEDA DISPLAY](./screenshots1/PART%201%20screenshot%20of%20CEDA%20DISPLAY%20.png)
-  ```
+  
+  ![CEDA DISPLAY](./screenshots1/CEDADISPLAY.png)
+ 
 
 - **Initial Screen (`IF2A`)**  
-  ```markdown
+  
   ![Inquiry Initial Screen](./screenshots1/SCREEN%20Initial%20screen%20after%20entering%20Transaction%20ID%20IF2A.png)
   ```
 
 - **“Customer does not exist”**  
-  ```markdown
+  
   ![Inquiry Invalid](./screenshots1/Screen%20with%20‘Customer%20does%20not%20exist’%20message%20after%20entering%20‘777777’%20.png)
   ```
 
 - **Error Message on Blank Input**  
-  ```markdown
+ 
   ![Inquiry Error Blank](./screenshots1/Screen%20with%20error%20message%20after%20entering%20blanks%20in%20Customer%20Number%20field.png)
   ```
 
 - **Valid Data after entering `123456`**  
-  ```markdown
+ 
   ![Inquiry Valid Data](./screenshots1/Screen%20with%20valid%20data%20after%20entering%20‘123456’%20.png)
   ```
 
 - **VSAM CLOSE**  
-  ```markdown
+ 
   ![VSAM CLOSE](./screenshots1/VSAM%20CLOSE.png)
   ```
 
 - **VSAM OPEN**  
-  ```markdown
+  
   ![VSAM OPEN](./screenshots1/VSAM%20OPEN.png)
   ```
 ```
@@ -228,49 +228,49 @@ Below are embedded screenshots demonstrating how the application works in CICS. 
 
 - **Menu Initial Screen**  
   - **Description**: Displays the initial menu before transferring to another program.
-  ```markdown
+  
   ![Menu Initial Screen](./screenshots2/Inquiry%20Screen%20before%20pressing%20F3%20or%20F12%20to%20transfer%20to%20Menu%20program.png)
   ```
 
 - **Option 1 → Transfer to Inquiry Program**  
   - **Description**: Shows the screen when selecting `1` to transfer to the Inquiry Program.
-  ```markdown
+  
   ![Menu Option 1 to Inquiry](./screenshots2/Screen%20with%20‘1’%20typed%20before%20pressing%20Enter%20to%20transfer%20to%20Inquiry%20program.png)
   ```
 
 - **Option 2 → "Program Not Available"**  
   - **Description**: Displays a message when selecting `2` or `3` before the Maintenance Program is set up.
-  ```markdown
+ 
   ![Menu Option 2 Error](./screenshots2/Screen%20with%20‘Program%20not%20available’%20message%20after%20entering%20‘2’%20or%20‘3.png)
   ```
 
 - **Invalid Input Error**  
   - **Description**: Error screen when an invalid input (such as `4`) is entered.
-  ```markdown
+  
   ![Menu Invalid Input Error](./screenshots2/Screen%20with%20error%20message%20after%20entering%20‘4’%20.png)
   ```
 
 - **Blank Input Error in Selection Field**  
   - **Description**: Displays an error message when a blank selection is entered.
-  ```markdown
+ 
   ![Menu Blank Input Error](./screenshots2/Screen%20with%20error%20message%20after%20entering%20blanks%20in%20selection%20field.png)
   ```
 
 - **CEDA DISPLAY Screenshot**  
   - **Description**: Shows the CEDA DISPLAY configuration for the system.
-  ```markdown
+  
   ![CEDA DISPLAY](./screenshots2/screenshot%20of%20CEDA%20DISPLAY%20.png)
   ```
 
 - **CICS File Closed Status**  
   - **Description**: Displays the CICS file status when `CMFF2A` is closed.
-  ```markdown
+ 
   ![CICS File Closed](./screenshots2/Screenshot%20OF%20CEMT%20SET%20FILE(CMFF2A)%20CLOSE%20CICS%20.png)
   ```
 
 - **CICS File Open Status**  
   - **Description**: Displays the CICS file status when `CMFF2A` is opened.
-  ```markdown
+  
   ![CICS File Open](./screenshots2/Screenshot%20OF%20CEMT%20SET%20FILE(CMFF2A)%20OPEN.png)
   ```
 ```
@@ -280,49 +280,49 @@ Below are embedded screenshots demonstrating how the application works in CICS. 
 
 - **Add Operation - Error (No Customer Number Provided)**  
   - **Description**: Displays an error when attempting to add a record without providing a customer number.
-  ```markdown
+ 
   ![Maint Add Error](./screenshots3/Screen%20for%20Add%20with%20message%20.png)
   ```
 
 - **Add Operation - Success**  
   - **Description**: Displays a success message when a record is successfully added.
-  ```markdown
+  
   ![Maint Add Success](./screenshots3/Screen%20for%20Add%20with%20message%20.png)
   ```
 
 - **Change Operation - Error (Customer Does Not Exist)**  
   - **Description**: Displays an error when attempting to change a non-existent customer record.
-  ```markdown
+  
   ![Maint Change Error](./screenshots3/Screen%20for%20Change%20with%20error%20.png)
   ```
 
 - **Delete Operation - Error**  
   - **Description**: Displays an error when attempting to delete a record with an issue.
-  ```markdown
+  
   ![Maint Delete Error](./screenshots3/Screen%20for%20Delete%20with%20error%20.png)
   ```
 
 - **Delete Operation - Success**  
   - **Description**: Displays a success message when a record is successfully deleted.
-  ```markdown
+
   ![Maint Delete Success](./screenshots3/Screen%20for%20Delete%20with%20message%20.png)
   ```
 
 - **System Overview - Mapsets, Programs, and Transactions**  
   - **Description**: Shows an overview of the system with three mapsets, three programs, and three transactions.
-  ```markdown
+
   ![System Overview](./screenshots3/Screenshot%20%20of%20three%20Mapsets,%20three%20Programs,%20three%20Transactions%20.png)
   ```
 
 - **CICS File Closed Status**  
   - **Description**: Displays the CICS file status when `CMFF2A` is closed.
-  ```markdown
+ 
   ![CICS File Closed](./screenshots3/Screenshot%20CEMT%20SET%20FILE(CMFF2A)%20CLOSE%20CICS%20%20.png)
   ```
 
 - **CICS File Open Status**  
   - **Description**: Displays the CICS file status when `CMFF2A` is opened.
-  ```markdown
+
   ![CICS File Open](./screenshots3/Screenshot%20CEMT%20SET%20FILE(CMFF2A)%20OPEN.png)
   ```
 ```
